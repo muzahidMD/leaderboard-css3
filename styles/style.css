@@ -3,6 +3,7 @@
 
 /* common style */
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
 }
@@ -31,6 +32,42 @@ hr{
     font-size: 24px;
     margin-top: 3px;
 }
+
+/* ----------------
+  Menu Bar
+------------------- */
+.main-menu{
+    width: 1440px;
+    height: 94px;
+    background-color: #562EFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav>.menus>.menu>.logo>img {
+    width: 40.42px;
+    height: 51px;
+}
+.menus{
+    display: flex;
+    justify-content: space-between;
+    width: 870px;
+
+}
+.menu{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.menu>li{
+    list-style: none;
+}
+.menu>li>a{
+    text-decoration: none;
+    color: white;
+    padding-left: 36px;
+}
+
 
 /* top players style */
 .players{
@@ -87,6 +124,8 @@ latest course style
 --------------------- */
 
 .courses{
+    width: 870px;
+    height: 300px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
